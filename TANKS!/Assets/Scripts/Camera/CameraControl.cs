@@ -5,7 +5,7 @@ public class CameraControl : MonoBehaviour
     public float m_DampTime = 0.2f;                 
     public float m_ScreenEdgeBuffer = 4f;           
     public float m_MinSize = 6.5f;                  
-    /*[HideInInspector]*/ public Transform[] m_Targets; //public so other scripts can talk to this script but the 
+    [HideInInspector] public Transform[] m_Targets; //public so other scripts can talk to this script but the 
                                                     //"HideInInspector" hides it from being seen in Inspector 
                                                     //like most public variables
 
