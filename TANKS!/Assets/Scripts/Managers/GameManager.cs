@@ -32,6 +32,12 @@ public class GameManager : MonoBehaviour
         StartCoroutine(GameLoop());
     }
 
+    private void Update()
+    {
+        if (Input.GetKey("escape"))
+            Application.Quit();
+
+    }
 
     private void SpawnAllTanks()
     {

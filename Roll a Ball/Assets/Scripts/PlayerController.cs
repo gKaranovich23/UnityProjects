@@ -25,7 +25,8 @@ public class PlayerController : MonoBehaviour {
     //most of the game code goes here
     void Update()
     {
-       
+        if (Input.GetKey("escape"))
+            Application.Quit();
     }
 
     //performed before doing any physics calculations
